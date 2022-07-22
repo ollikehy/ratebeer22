@@ -1,0 +1,9 @@
+<div id="<%= dom_id user %>">
+  <p>
+    <h3>Username:</h3>
+    <%= user.username %>
+  </p>
+
+  <p>Has made <%= "#{user.ratings.count}"%> ratings, average rating <%= "#{user.average_rating}" %></p>
+
+</div>
